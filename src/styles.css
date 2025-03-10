@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary-800: #121212;
+  --color-primary-700: #18151a;
+  --color-primary-600: #1e1a23;
+  --color-primary-500: #534a5d;
+  --color-primary-750: #121212;
+  --color-primary: #825fae;
+  --font-manrope: "Manrope", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
